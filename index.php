@@ -8,7 +8,7 @@
 
 	<title>Calculadora de MDC e MMC - Dream Up</title>
 	<meta name="description" content="Dream Up - Calculadora de MDC e MMC, você pode calcular o MMC e o MDC de vários números e obter resultados visíveis do calculo.">
-	<meta name="keywords" content="DREAM UP, Calculadora, MDC, MMC, Calculado de MMC e MDC, Calculadora MMC, Calculadora MDC, Alan Pardini Sant'Ana, Alan Pardini, Alan Sant'Ana, Alan PS, Alan P.S., Dream Up - Portfólio Online, Dream Up, Portfólio Online, Dream Up Portfólio, Dream Up - Portfólio, Dream Up Online, Agência Dream Up">
+	<meta name="keywords" content="DREAM UP, Calculadora, MDC, MMC, Calculado de MMC e MDC, Calculadora MMC, Calculadora MDC, Alan Pardini Sant'Ana, Alan Pardini, Alan Sant'Ana, Alan PS, Alan P.S., Dream Up - Portfólio Online, Dream Up, Portfólio Online, Dream Up Portfólio, Dream Up - Portfólio, Dream Up Online, Agência Dream Up, Projetos Dream Up, Projetos Agência Dream Up, Projetos Alan Pardini Sant'Ana">
 
 </head>
 
