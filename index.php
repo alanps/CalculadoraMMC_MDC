@@ -7,40 +7,59 @@
 	<link href="index.css" rel="stylesheet" type="text/css" media="all">
 
 	<title>Calculadora de MDC e MMC - Dream Up</title>
+    <meta name="author" content="Alan Pardini Sant'Ana">
 	<meta name="description" content="Dream Up - Calculadora de MDC e MMC, você pode calcular o MMC e o MDC de vários números e obter resultados visíveis do calculo.">
 	<meta name="keywords" content="DREAM UP, Calculadora, MDC, MMC, Calculado de MMC e MDC, Calculadora MMC, Calculadora MDC, Alan Pardini Sant'Ana, Alan Pardini, Alan Sant'Ana, Alan PS, Alan P.S., Dream Up - Portfólio Online, Dream Up, Portfólio Online, Dream Up Portfólio, Dream Up - Portfólio, Dream Up Online, Agência Dream Up, Projetos Dream Up, Projetos Agência Dream Up, Projetos Alan Pardini Sant'Ana">
 
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="initial-scale = 1.0, user-scalable=yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="image_src" type="image/jpeg" href="./images/favicon.ico" />
+    <!-- Meta Tags de Visualização ===================================================== -->
+    <meta property="fb:app_id" content="285822082304827">
+    <meta property="og:title" content="Calculadora de MDC e MMC - Dream Up">
+    <meta property="og:description" content="Dream Up - Calculadora de MDC e MMC, você pode calcular o MMC e o MDC de vários números e obter resultados visíveis do calculo.">
+    <meta property="og:url" content="https://www.agenciadreamup.com.br/calculadora-mmc-mdc/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.agenciadreamup.com.br/calculadora-mmc-mdc/share.png">
+    <meta property="og:image:height" content="334">
+    <meta property="og:image:width" content="329">
+    <meta property="og:image:type" content="image/png">
 </head>
 
 
 <body>
 
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <center>
 
 <div id="topopreto"></div>
 
 <div id="topo">
-<img src="logo.png" id="logo">
+    <img src="logo.png" id="logo">
 
-<div id="mmcexplicacao">
-	<span id="mmc">
-	MÍNIMO MÚLTIPLO COMUM (MMC)
-	</span>
-	<span id="mmc2">
-	O mínimo múltiplo comum (MMC) de dois inteiros a e b é o menor inteiro positivo que é múltiplo simultaneamente de a e de b. Se não existir tal inteiro positivo, por exemplo, se a = 0 ou b = 0, então mmc(a, b) é zero por definição.
-	</span>
-</div>
+    <div class="blocos">
+        <div id="mmcexplicacao">
+        	<span id="mmc">
+        	MÍNIMO MÚLTIPLO COMUM (MMC)
+        	</span>
+        	<span id="mmc2">
+        	O mínimo múltiplo comum (MMC) de dois inteiros a e b é o menor inteiro positivo que é múltiplo simultaneamente de a e de b. Se não existir tal inteiro positivo, por exemplo, se a = 0 ou b = 0, então mmc(a, b) é zero por definição.
+        	</span>
+        </div>
 
-<div id="mdcexplicacao">
-	<span id="mmc">
-	MÁXIMO DIVISOR COMUM (MDC)
-	</span>
-	<span id="mmc2">
-	O máximo divisor comum (MDC) entre dois ou mais números inteiros é o maior número inteiro que é fator de tais números.
-	</span>
-</div>
+        <div id="mdcexplicacao">
+        	<span id="mmc">
+        	MÁXIMO DIVISOR COMUM (MDC)
+        	</span>
+        	<span id="mmc2">
+        	O máximo divisor comum (MDC) entre dois ou mais números inteiros é o maior número inteiro que é fator de tais números.
+        	</span>
+        </div>
+    </div>
 </div>
 
 <div id="topocinza"></div>
@@ -52,85 +71,87 @@
 CÁLCULO DETALHADO DO MMC E DO MDC DE UM CONJUNTO DE NÚMEROS
 </span>
 
-<div id="calculadora2">
+<div class="blocos">
+    <div id="calculadora2">
 
-<div id="calculadora">
-	<span id="numero1">NÚMERO 1</span>
-	<input class="numero1input" id="numero1a" type="text" maxlength="6">
-	<span id="numero2">NÚMERO 2</span>
-	<input class="numero2input" id="numero2a" type="text" maxlength="6" disabled>
-	<span id="numero2">NÚMERO 3</span>
-	<input class="numero2input" id="numero3a" type="text" maxlength="6" disabled>
-	<span id="numero2">NÚMERO 4</span>
-	<input class="numero2input" id="numero4a" type="text" maxlength="6" disabled>
-	<span id="numero2">NÚMERO 5</span>
-	<input class="numero2input" id="numero5a" type="text" maxlength="6" disabled>
-	<input id="calcular" type="button" value="CALCULAR">
-</div>
+        <div id="calculadora">
+           <span id="numero1">NÚMERO 1</span>
+           <input class="numero1input" id="numero1a" type="number" maxlength="6">
+           <span id="numero2">NÚMERO 2</span>
+           <input class="numero2input" id="numero2a" type="number" maxlength="6" disabled>
+           <span id="numero2">NÚMERO 3</span>
+           <input class="numero2input" id="numero3a" type="number" maxlength="6" disabled>
+           <span id="numero2">NÚMERO 4</span>
+           <input class="numero2input" id="numero4a" type="number" maxlength="6" disabled>
+           <span id="numero2">NÚMERO 5</span>
+           <input class="numero2input" id="numero5a" type="number" maxlength="6" disabled>
+           <input id="calcular" type="button" value="CALCULAR">
+        </div>
 
-<a href="http://www.agenciadreamup.com.br" target="_blank">
-<img src="logo2.jpg" id="logo2">
-</a>
+        <a href="http://www.agenciadreamup.com.br" target="_blank">
+            <img src="logo2.jpg" id="logo2">
+        </a>
 
-</div>
+    </div>
 
-<div id="respostas">
-<div class="hr"></div>
+    <div id="respostas">
+        <div class="hr"></div>
 
-<div id="respostas1A">
-<span class="nr" id="fatorar1"></span>
+        <div id="respostas1A">
+            <span class="nr" id="fatorar1"></span>
 
-<div id="table1">
-</div>
+            <div id="table1">
+            </div>
 
-<div class="nr" id="fatorarA1"></div>
-</div>
+            <div class="nr" id="fatorarA1"></div>
+        </div>
 
-<div id="respostas2A">
-<span class="nr" id="fatorar2"></span>
+        <div id="respostas2A">
+            <span class="nr" id="fatorar2"></span>
 
-<div id="table2">
-</div>
+            <div id="table2">
+            </div>
 
-<div class="nr" id="fatorarA2"></div>
-</div>
+            <div class="nr" id="fatorarA2"></div>
+        </div>
 
-<div id="respostas3A">
-<span class="nr" id="fatorar3"></span>
+        <div id="respostas3A">
+            <span class="nr" id="fatorar3"></span>
 
-<div id="table3">
-</div>
+            <div id="table3">
+            </div>
 
-<div class="nr" id="fatorarA3"></div>
-</div>
+            <div class="nr" id="fatorarA3"></div>
+        </div>
 
-<div id="respostas4A">
-<span class="nr" id="fatorar4"></span>
+        <div id="respostas4A">
+            <span class="nr" id="fatorar4"></span>
 
-<div id="table4">
-</div>
+            <div id="table4">
+            </div>
 
-<div class="nr" id="fatorarA4"></div>
-</div>
+            <div class="nr" id="fatorarA4"></div>
+        </div>
 
-<div id="respostas5A">
-<span class="nr" id="fatorar5"></span>
+        <div id="respostas5A">
+            <span class="nr" id="fatorar5"></span>
 
-<div id="table5">
-</div>
+            <div id="table5">
+            </div>
 
-<div class="nr" id="fatorarA5"></div>
-</div>
+            <div class="nr" id="fatorarA5"></div>
+        </div>
 
 
-<div id="nrresultado">
-<span class="nr">Resultado:</span>
+        <div id="nrresultado">
+            <span class="nr">Resultado:</span>
 
-<div class="resultado" id="resultadommc"><span class="nrgrande2">MMC(8, 12, 18) = 2</span><span class="nrpequeno2">3</span><span class="nrgrande2">. 3  </span><span class="nrpequeno2">2</span><span class="nrgrande2">= (2.2.2).(3.3) = 8 . 9 = </span><span class="nrgranderesultado">72</span></div>
+            <div class="resultado" id="resultadommc"><span class="nrgrande2">MMC(8, 12, 18) = 2</span><span class="nrpequeno2">3</span><span class="nrgrande2">. 3  </span><span class="nrpequeno2">2</span><span class="nrgrande2">= (2.2.2).(3.3) = 8 . 9 = </span><span class="nrgranderesultado">72</span></div>
 
-<div class="resultado" id="resultadomdc"><span class="nrgrande2">MDC(8, 12, 18) = </span><span class="nrgranderesultado">2</span></div>
-<div class="hr2"></div>
-</div>
+            <div class="resultado" id="resultadomdc"><span class="nrgrande2">MDC(8, 12, 18) = </span><span class="nrgranderesultado">2</span></div>
+            <div class="hr2"></div>
+        </div>
+    </div>
 </div>
 
 </div>
