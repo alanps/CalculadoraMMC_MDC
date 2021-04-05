@@ -39,7 +39,7 @@
 <div id="topopreto"></div>
 
 <div id="topo">
-    <img src="logo.png" id="logo">
+    <img src="logo.png" id="logo" alt="Logo">
 
     <div class="blocos">
         <div id="mmcexplicacao">
@@ -88,8 +88,8 @@ CÁLCULO DETALHADO DO MMC E DO MDC DE UM CONJUNTO DE NÚMEROS
            <input id="calcular" type="button" value="CALCULAR">
         </div>
 
-        <a href="http://www.agenciadreamup.com.br" target="_blank">
-            <img src="logo2.jpg" id="logo2">
+        <a href="https://www.agenciadreamup.com.br" target="_blank">
+            <img src="logo2.jpg" id="logo2" alt="Logo Dream Up - Agência Digital">
         </a>
 
     </div>
