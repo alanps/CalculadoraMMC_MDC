@@ -6,10 +6,10 @@
 	<meta charset="utf-8">
 	<link href="index.css" rel="stylesheet" type="text/css" media="all">
 
-	<title>Calculadora de MDC e MMC - Dream Up</title>
+	<title>Calculadora de MMC e MDC - Dream Up</title>
     <meta name="author" content="Alan Pardini Sant'Ana">
-	<meta name="description" content="Calculadora de MDC e MMC, você pode calcular o MMC e o MDC de vários números e obter resultados visíveis do calculo.">
-	<meta name="keywords" content="DREAM UP, Calculadora, MDC, MMC, Calculado de MMC e MDC, Calculadora MMC, Calculadora MDC, Alan Pardini Sant'Ana, Alan Pardini, Alan Sant'Ana, Alan PS, Alan P.S., Dream Up - Portfólio Online, Dream Up, Portfólio Online, Dream Up Portfólio, Dream Up - Portfólio, Dream Up Online, Agência Dream Up, Projetos Dream Up, Projetos Agência Dream Up, Projetos Alan Pardini Sant'Ana">
+	<meta name="description" content="Calculadora de MMC e MDC, você pode calcular o MMC e o MDC de vários números e obter resultados visíveis do calculo.">
+	<meta name="keywords" content="DREAM UP, Calculadora, MMC, MDC, Calculado de MMC e MDC, Calculadora MMC, Calculadora MDC, Alan Pardini Sant'Ana, Alan Pardini, Alan Sant'Ana, Alan PS, Alan P.S., Dream Up - Portfólio Online, Dream Up, Portfólio Online, Dream Up Portfólio, Dream Up - Portfólio, Dream Up Online, Agência Dream Up, Projetos Dream Up, Projetos Agência Dream Up, Projetos Alan Pardini Sant'Ana">
 
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="initial-scale = 1.0, user-scalable=yes">
@@ -20,8 +20,8 @@
     <link rel="image_src" type="image/jpeg" href="./images/favicon.ico" />
     <!-- Meta Tags de Visualização ===================================================== -->
     <meta property="fb:app_id" content="285822082304827">
-    <meta property="og:title" content="Calculadora de MDC e MMC - Dream Up">
-    <meta property="og:description" content="Calculadora de MDC e MMC, você pode calcular o MMC e o MDC de vários números e obter resultados visíveis do calculo.">
+    <meta property="og:title" content="Calculadora de MMC e MDC - Dream Up">
+    <meta property="og:description" content="Calculadora de MMC e MDC, você pode calcular o MMC e o MDC de vários números e obter resultados visíveis do calculo.">
     <meta property="og:url" content="https://www.agenciadreamup.com.br/calculadora-mmc-mdc/">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://www.agenciadreamup.com.br/calculadora-mmc-mdc/share.png">
