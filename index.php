@@ -33,7 +33,6 @@
 
 <body>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <center>
 
 <div id="topopreto"></div>
@@ -160,7 +159,8 @@ CÁLCULO DETALHADO DO MMC E DO MDC DE UM CONJUNTO DE NÚMEROS
 
 </body>
 
-</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <script>
 $(window).keypress(function(event) {
 	var tecla = (window.event) ? event.keyCode : event.which;
@@ -172,6 +172,7 @@ $(window).keypress(function(event) {
 });
 	
 </script>
+
 <script>
 $("#numero1a").change(function() {
 if ($("#numero1a").val() > 1)
@@ -551,3 +552,6 @@ $('#resultadommc').html('<span class="nrgrande2">MMC(' + inp1 + ', ' + inp2 + ',
 
 
 </script>
+
+
+</html>
